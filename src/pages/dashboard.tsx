@@ -1,3 +1,9 @@
+import { Header } from "../components/Form/Header";
+
 export default function Dashboard() {
-  return <h1>Dashbord</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
